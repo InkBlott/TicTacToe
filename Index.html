@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Stylesheet.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+            <div class="gridContainer">
+                <div class="playItem" id="0" onclick="set(this.id)">X</div>
+                <div class="playItem" id="1" onclick="set(this.id)">X</div>
+                <div class="playItem2" id="2" onclick="set(this.id)"></div>
+                <div class="playItem" id="3" onclick="set(this.id)">O</div>
+                <div class="playItem" id="4" onclick="set(this.id)">X</div>
+                <div class="playItem2" id="5" onclick="set(this.id)">O</div>
+                <div class="playItem3" id="6" onclick="set(this.id)">X</div>
+                <div class="playItem3" id="7" onclick="set(this.id)">O</div>
+                <div class="playItem4" id="8" onclick="set(this.id)">X</div>
+            </div>
+            <div class="announce" id="a"></div>
+            <div class="announce"><button class="btn" onclick="reset()">RESET</button></div>
+            
+        
+        <script src="TicTacToe.js" async defer></script>
+    </body>
+</html>
